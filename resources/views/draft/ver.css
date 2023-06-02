@@ -1,0 +1,44 @@
+.vercontainer {
+    width: 8pt;
+    background-color: #ffffff;
+    border-radius: 0.8em;
+    box-shadow: 0 45px 60px rgba(30, 22, 1, 0.3);
+}
+
+.inputfield {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.input {
+    height: 1pt;
+    width: 1pt;
+    border: 2px solid #2b00ff;
+    outline: none;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 0.3em;
+    background-color: #ff0000;
+    outline: none;
+    /*Hide number field arrows*/
+    -moz-appearance: textfield;
+}
+
+.input:disabled {
+    color: #89888b;
+}
+.input:focus {
+    border: 3px solid #ffb800;
+}
+
+#submit {
+    background-color: #044ecf;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    padding: 0.8em 2em;
+    color: #ffffff;
+    border-radius: 0.1em;
+    margin: 1em auto 0 auto;
+    cursor: pointer;
+}
